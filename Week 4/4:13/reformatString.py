@@ -21,7 +21,7 @@ class Solution(object):
                     ans = ans + char[a]
                     ans = ans + num[a]
                 ans = ans + char[len(char) - 1]
-            elif len(char) < len(num):
+             len(char) < len(num):
                 for a in range(len(char)):
                     ans = ans + num[a]
                     ans = ans + char[a]
